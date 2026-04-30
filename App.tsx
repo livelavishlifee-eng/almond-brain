@@ -5,8 +5,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from './src/pages/Home.tsx';
-import NotFound from './src/pages/NotFound.tsx';
+import Home from './Home.tsx';
+import NotFound from './Home.tsx';
 
 const App: React.FC = () => {
   return (
